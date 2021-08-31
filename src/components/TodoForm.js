@@ -1,12 +1,10 @@
 import React, {useState} from 'react';
 import FirebaseConfig from '../lib/FirebaseConfig';
 
-
 export default function TodoForm() {
 
     const [title, setTitle] = useState('');
     const [time, setTime] = useState('');
-
     // adding new todo
     function onSubmitTodo(e) {
         e.preventDefault();
@@ -23,7 +21,6 @@ export default function TodoForm() {
         })
 
     }
-
 
     return (
         <form onSubmit={onSubmitTodo} className='todo-form mt-3'>

@@ -19,6 +19,7 @@ body {
   padding-right: 10px;
   font-size: 24px;
 }
+
 .lists li {
   color: #fff;
   margin: 10px 0;
@@ -26,6 +27,14 @@ body {
 .lists code {
   padding-left: 20px;
   color: coral;
+}
+.lists .fa-trash{
+  padding-left: 20px;
+  cursor: pointer;
+  color: rgb(95, 0, 0);
+}
+.lists .fa-trash:hover{
+  color: rgb(161, 0, 0);
 }
 
 /* Todo Form */
